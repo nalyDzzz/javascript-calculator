@@ -1,10 +1,4 @@
-import React from "react";
-
-type Props = {
-
-};
-
-const Header = (props: Props) => {
+const Header = () => {
   return (
     <header>
       <h1 className="text-center text-4xl font-bold text-slate-800 dark:text-slate-200">
