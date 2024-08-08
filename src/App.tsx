@@ -1,4 +1,5 @@
-import React from 'react';
+import Header from './Header';
+import CalculatorContainer from './CalculatorContainer';
 
 
 function App() {
@@ -6,8 +7,9 @@ function App() {
 
   return (
     <>
-      <div className='App'>
-        <h1>Test</h1>
+      <div className='App container mt-4 max-w-lg'>
+        <Header />
+        <CalculatorContainer />
       </div>
     </>
   )
